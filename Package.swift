@@ -17,7 +17,8 @@ let package = Package(
         "GTMSessionFetcherService.m",
         "GTMSessionUploadFetcher.m",
       ],
-      publicHeadersPath: "Core/include"
+      publicHeadersPath: "Core/include",
+      cSettings: [.headerSearchPath("Core/include/GTMSessionFetcher")]
     ),
   ]
 )
