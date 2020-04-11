@@ -5,11 +5,11 @@ import PackageDescription
 let package = Package(
   name: "GTMSessionFetcher",
   products: [
-    .library(name: "GTMSessionFetcher", targets: ["GTMSessionFetcherCore"]),
+    .library(name: "GTMSessionFetcher", targets: ["GTMSessionFetcher"]),
   ],
   targets: [
     .target(
-      name: "GTMSessionFetcherCore",
+      name: "GTMSessionFetcher",
       path: "Source",
       sources: [
         "GTMSessionFetcher.m",
